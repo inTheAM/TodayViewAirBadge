@@ -11,6 +11,9 @@
 		DB5DDE7F2A6B0B840037B71A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5DDE7E2A6B0B840037B71A /* ContentView.swift */; };
 		DB5DDE812A6B0B880037B71A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB5DDE802A6B0B880037B71A /* Assets.xcassets */; };
 		DB5DDE842A6B0B880037B71A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB5DDE832A6B0B880037B71A /* Preview Assets.xcassets */; };
+		DB5DDE8B2A6B0BA20037B71A /* AnalogClock.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5DDE8A2A6B0BA20037B71A /* AnalogClock.swift */; };
+		DB5DDE8D2A6B0C940037B71A /* CurrentTimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5DDE8C2A6B0C940037B71A /* CurrentTimeView.swift */; };
+		DB5DDE8F2A6B10C60037B71A /* HoursTodayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5DDE8E2A6B10C60037B71A /* HoursTodayView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		DB5DDE7E2A6B0B840037B71A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DB5DDE802A6B0B880037B71A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DB5DDE832A6B0B880037B71A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DB5DDE8A2A6B0BA20037B71A /* AnalogClock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalogClock.swift; sourceTree = "<group>"; };
+		DB5DDE8C2A6B0C940037B71A /* CurrentTimeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentTimeView.swift; sourceTree = "<group>"; };
+		DB5DDE8E2A6B10C60037B71A /* HoursTodayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoursTodayView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +59,9 @@
 			children = (
 				DB5DDE7C2A6B0B840037B71A /* TodayViewAirBadgeApp.swift */,
 				DB5DDE7E2A6B0B840037B71A /* ContentView.swift */,
+				DB5DDE8A2A6B0BA20037B71A /* AnalogClock.swift */,
+				DB5DDE8C2A6B0C940037B71A /* CurrentTimeView.swift */,
+				DB5DDE8E2A6B10C60037B71A /* HoursTodayView.swift */,
 				DB5DDE802A6B0B880037B71A /* Assets.xcassets */,
 				DB5DDE822A6B0B880037B71A /* Preview Content */,
 			);
@@ -137,8 +146,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB5DDE8B2A6B0BA20037B71A /* AnalogClock.swift in Sources */,
+				DB5DDE8D2A6B0C940037B71A /* CurrentTimeView.swift in Sources */,
 				DB5DDE7F2A6B0B840037B71A /* ContentView.swift in Sources */,
 				DB5DDE7D2A6B0B840037B71A /* TodayViewAirBadgeApp.swift in Sources */,
+				DB5DDE8F2A6B10C60037B71A /* HoursTodayView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
